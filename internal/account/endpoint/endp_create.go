@@ -3,7 +3,6 @@ package endpoint
 import (
 	"context"
 
-	"github.com/danonika/test/internal/account/endpoint"
 	"github.com/danonika/test/internal/account/service"
 	"github.com/go-kit/kit/endpoint"
 )

@@ -3,12 +3,12 @@ package adapters
 import (
 	"context"
 
-	"github.com/jackc/pgx"
-
 	"github.com/danonika/test/pkg/postgres"
+	"github.com/jackc/pgx/v4"
+
+	"github.com/jackc/pgx/v4/pgxpool"
 
 	"github.com/danonika/test/internal/account/domain"
-	"github.com/jackc/pgx/v4/pgxpool"
 )
 
 type AuthorizationRepositoryPostgre struct {
