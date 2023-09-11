@@ -7,7 +7,7 @@ import (
 
 	"github.com/danonika/test/internal/account/service"
 	"github.com/danonika/test/pkg/jwt"
-	"github.com/jackc/pgx/pgxpool"
+	"github.com/jackc/pgx/v4/pgxpool"
 )
 
 func MakeService(ctx context.Context, opts ...Option) service.Service {
